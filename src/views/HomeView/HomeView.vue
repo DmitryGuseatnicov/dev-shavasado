@@ -1,11 +1,11 @@
 <script setup lang="ts">
-
+// import WebApp from '@twa-dev/sdk'
 </script>
 
 <template>
   <div class="home-view">
     <div class="home-view__title">
-      ДОБРО ПОЖАЛОВАТЬ В ABS TEAM
+        Главная
     </div>
   </div>
 </template>

@@ -1,3 +1,6 @@
 export const appRoutes = {
-  home: () => '/',
+  home: () => ({path: '/'}),
+  profile: () => ({path: '/profile'}),
+  order: () => ({path: '/order'}),
+  menu: () => ({path: '/menu'})
 };

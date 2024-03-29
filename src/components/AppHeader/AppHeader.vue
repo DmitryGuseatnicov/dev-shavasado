@@ -16,7 +16,7 @@ const APP_HEADER_ITEMS = [
       <div class="app-header__navigation">
         <RouterLink 
           v-for="linkItem in APP_HEADER_ITEMS" 
-          :key="linkItem.link"
+          :key="linkItem.link.path"
           :to="linkItem.link" 
           class="app-header__link"
           active-class="app-header__link--active"

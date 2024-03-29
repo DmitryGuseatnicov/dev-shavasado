@@ -1,17 +1,19 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 
-import {AppHeader} from './components/AppHeader';
-
+import { AppMenu } from './components/AppMenu';
 </script>
 
 <template>
-  <AppHeader  />
   <AppConfirm />
-  <main>
+  <main class="main">
     <RouterView />
   </main>
+  <AppMenu />
 </template>
 
 <style lang="scss">
+.main {
+  padding-bottom: 80px;
+}
 </style>
